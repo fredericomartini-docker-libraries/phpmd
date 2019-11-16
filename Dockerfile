@@ -11,4 +11,4 @@ RUN chmod +x /usr/local/bin/phpmd
 RUN mkdir -p /app
 WORKDIR /app
 
-ENTRYPOINT ["phpmd"]
+#ENTRYPOINT ["$@"]
